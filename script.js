@@ -8,5 +8,6 @@ function changeText(){
 	h1.id = "status"
     h1.innerText = "Entered Metaverse"
     body.replaceChild(h1, body.children[0])
+	body.childern[0] = h1
 }
 btn.addEventListener("click", changeText)
