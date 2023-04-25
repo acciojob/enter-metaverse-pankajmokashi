@@ -7,6 +7,6 @@ function changeText(){
     const h1 = document.createElement("h1")
 	h1.id = "status"
     h1.innerText = "Entered Metaverse"
-    body.replaceChild(h3, body.children[0])
+    body.replaceChild(h1, body.children[0])
 }
 btn.addEventListener("click", changeText)
